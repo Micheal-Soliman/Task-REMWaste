@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.textContainer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: transparent;
+  background: linear-gradient(
+    to right,
+    var(--text),
+    var(--altColor),
+    var(--mainColor)
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  animation: shine 3s linear infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.desc {
+  color: var(--mainColor);
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.skipsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 30px;
+}

@@ -1,0 +1,36 @@
+/* styles/globals.css */
+
+.MuiStepper-root {
+  margin-top: 40px;
+}
+
+.MuiStepLabel-label,
+.MuiStepIcon-root {
+  color: #75916c !important;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.MuiStep-root.Mui-completed .MuiStepLabel-label,
+.MuiStepIcon-root.Mui-completed {
+  color: #bed4a4 !important;
+}
+
+.MuiStepLabel-root .MuiStepLabel-label.Mui-active,
+.MuiStepIcon-root.Mui-active {
+  color: #2c4d34 !important;
+  font-weight: bold;
+}
+
+.MuiStepIcon-root {
+  color: red;
+}
+
+.step-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 16px;
+}
