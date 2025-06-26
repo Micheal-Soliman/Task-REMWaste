@@ -5,12 +5,6 @@ import skips from '../data.json'
 import Footer from '@/components/footer/footer';
 import { useState } from 'react';
 
-export const metadata = {
-    verification: {
-        google: "ep5Yx4bIV5KRJQqtJlqSCyBaZq4xfSrJ3Lg1kHgCxSw",
-    },
-};
-
 const skipPage = () => {
     const [selectedSkip, setSelectedSkip] = useState(null);
     const handleSelectSkip = (skip) => {
