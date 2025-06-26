@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://task-rem-waste-oeki.vercel.app
+
+# Sitemaps
+Sitemap: https://task-rem-waste-oeki.vercel.app/sitemap.xml
